@@ -8,11 +8,11 @@ function renderHome() {
 	const content = `
 			<h2 class="text-3xl font-bold mb-6">Welcome back, ${user.name}!</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-					<div class="bg-gray-400 text-neutral-content p-6 rounded-lg shadow-md">
+					<div class="bg-white p-6 rounded-lg shadow-md">
 							<h3 class="text-xl font-semibold mb-4">Reading Overview</h3>
 							<canvas id="readingOverviewChart"></canvas>
 					</div>
-					<div class="bg-gray-400 text-neutral-content p-6 rounded-lg shadow-md">
+					<div class="bg-white p-6 rounded-lg shadow-md">
 							<h3 class="text-xl font-semibold mb-4">Current Challenges</h3>
 							<ul class="space-y-2">
 									${challenges
