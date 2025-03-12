@@ -23,8 +23,8 @@ function renderHome() {
 															<span>${challenge.name}</span>
 															<span>${challenge.progress}/${challenge.target}</span>
 													</div>
-													<div class="w-full bg-gray-400-content rounded-full h-2.5">
-															<div class="bg-primary h-2.5 rounded-full" style="width: ${
+													<div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+															<div class="bg-blue-600 h-2.5 rounded-full" style="width: ${
 																(challenge.progress / challenge.target) * 100
 															}%"></div>
 													</div>
@@ -33,9 +33,9 @@ function renderHome() {
 										)
 										.join("")}
 							</ul>
-							<button id="addChallengeBtn" class="mt-4 bg-secondary text-secondary-content px-4 py-2 rounded hover:bg-primary transition duration-300 border">Add New Challenge</button>
+							<button id="addChallengeBtn" class="mt-4 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Add New Challenge</button>
 					</div>
-					<div class="bg-gray-400 text-neutral-content p-6 rounded-lg shadow-md">
+					<div class="bg-white p-6 rounded-lg shadow-md">
 							<h3 class="text-xl font-semibold mb-4">Quick Add Book</h3>
 							<form id="quickAddForm" class="space-y-4">
 									<input type="text" id="quickAddTitle" placeholder="Book Title" class="w-full p-2 border rounded text-base-content" required>
