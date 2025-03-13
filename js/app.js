@@ -38,9 +38,9 @@ function renderHome() {
 					<div class="bg-white p-6 rounded-lg shadow-md">
 							<h3 class="text-xl font-semibold mb-4">Quick Add Book</h3>
 							<form id="quickAddForm" class="space-y-4">
-									<input type="text" id="quickAddTitle" placeholder="Book Title" class="w-full p-2 border rounded text-base-content" required>
-									<input type="text" id="quickAddAuthor" placeholder="Author" class="w-full p-2 border rounded text-base-content" required>
-									<button type="submit" class="w-full bg-primary text-primary-content px-4 py-2 rounded hover:bg-secondary transition duration-300 border">Add Book</button>
+									<input type="text" id="quickAddTitle" placeholder="Book Title" class="w-full p-2 border rounded" required>
+									<input type="text" id="quickAddAuthor" placeholder="Author" class="w-full p-2 border rounded" required>
+									<button type="submit" class="w-full bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Add Book</button>
 							</form>
 					</div>
 			</div>
