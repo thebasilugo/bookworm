@@ -65,7 +65,7 @@ function renderHome() {
 							</ul>
 							<button id="addBookBtn" class="mt-4 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Add New Book</button>
 					</div>
-					<div class="bg-gray-400 text-neutral-content p-6 rounded-lg shadow-md">
+					<div class="bg-white p-6 rounded-lg shadow-md">
 							<h3 class="text-xl font-semibold mb-4">Latest Reviews</h3>
 							<ul class="space-y-4">
 									${reviews
