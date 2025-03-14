@@ -54,12 +54,10 @@ function renderHome() {
 										.map(
 											(book) => `
 											<li class="flex justify-between items-center">
-													<a href="#" class="text-accent hover:underline viewBook" data-id="${book.id}">${
-												book.title
-											} by ${book.author}</a>
-													<span class="text-sm text-neutral-content">${moment(
-														book.dateAdded
-													).fromNow()}</span>
+													<a href="#" class="text-blue-600 hover:underline viewBook" data-id="${
+														book.id
+													}">${book.title} by ${book.author}</a>
+													<span class="text-sm text-gray-500">${moment(book.dateAdded).fromNow()}</span>
 											</li>
 									`
 										)
