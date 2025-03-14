@@ -63,7 +63,7 @@ function renderHome() {
 										)
 										.join("")}
 							</ul>
-							<button id="addBookBtn" class="mt-4 bg-secondary text-secondary-content px-4 py-2 rounded hover:bg-primary transition duration-300 border">Add New Book</button>
+							<button id="addBookBtn" class="mt-4 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Add New Book</button>
 					</div>
 					<div class="bg-gray-400 text-neutral-content p-6 rounded-lg shadow-md">
 							<h3 class="text-xl font-semibold mb-4">Latest Reviews</h3>
