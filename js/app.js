@@ -107,11 +107,7 @@ function renderHome() {
 						books.filter((b) => b.status === "to-read").length,
 						books.filter((b) => b.status === "reading").length,
 					],
-					backgroundColor: [
-						"var(--color-primary)",
-						"var(--color-secondary)",
-						"var(--color-accent)",
-					],
+					backgroundColor: ["#4CAF50", "#2196F3", "#FFC107"],
 				},
 			],
 		},
