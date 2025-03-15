@@ -77,10 +77,8 @@ function renderHome() {
 													<li>
 															<h4 class="font-semibold">${book ? book.title : "Unknown Book"}</h4>
 															<div class="flex items-center">
-																	${renderRatingTiles(review.rating)}
-																	<span class="ml-2 text-sm text-neutral-content">${moment(
-																		review.date
-																	).fromNow()}</span>
+																	${renderRatingEmojis(review.rating)}
+																	<span class="ml-2 text-sm text-gray-500">${moment(review.date).fromNow()}</span>
 															</div>
 															<p class="text-sm mt-1">${review.content.substring(0, 100)}${
 												review.content.length > 100 ? "..." : ""
