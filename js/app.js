@@ -121,7 +121,7 @@ function renderHome() {
 		},
 	});
 
-	// Add event listeners
+	// Add event listener for quick add form
 	document
 		.getElementById("quickAddForm")
 		.addEventListener("submit", function (e) {
@@ -130,7 +130,6 @@ function renderHome() {
 			const author = document.getElementById("quickAddAuthor").value;
 			addBook(title, author);
 			renderHome();
-			showToast("Book added successfully!");
 		});
 
 	document
