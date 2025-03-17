@@ -158,12 +158,12 @@ function renderBooks() {
 	const content = `
 			<h2 class="text-3xl font-bold mb-6">My Books</h2>
 			<div class="mb-4 flex justify-between items-center">
-					<input type="text" id="searchBooks" placeholder="Search books..." class="p-2 border rounded text-base-content">
-					<button id="addBookBtn" class="bg-primary text-primary-content px-4 py-2 rounded hover:bg-secondary transition duration-300 border">Add New Book</button>
+					<input type="text" id="searchBooks" placeholder="Search books..." class="p-2 border rounded">
+					<button id="addBookBtn" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Add New Book</button>
 			</div>
 			<div class="overflow-x-auto">
-					<table class="min-w-full bg-gray-400">
-							<thead class="bg-gray-400-focus">
+					<table class="min-w-full bg-white">
+							<thead class="bg-gray-100">
 									<tr>
 											<th class="py-2 px-4 text-left">Title</th>
 											<th class="py-2 px-4 text-left">Author</th>
