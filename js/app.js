@@ -132,13 +132,17 @@ function renderHome() {
 			renderHome();
 		});
 
+	// Add event listener for add challenge button
 	document
 		.getElementById("addChallengeBtn")
 		.addEventListener("click", showAddChallengeModal);
+
+	// Add event listener for add book button
 	document
 		.getElementById("addBookBtn")
 		.addEventListener("click", showAddBookModal);
 
+	// Add event listeners for view book links
 	document.querySelectorAll(".viewBook").forEach((link) => {
 		link.addEventListener("click", (e) => {
 			e.preventDefault();
