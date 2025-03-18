@@ -182,14 +182,12 @@ function renderBooks() {
 													<td class="py-2 px-4">${book.genre || "N/A"}</td>
 													<td class="py-2 px-4">${book.status}</td>
 													<td class="py-2 px-4">
-															<button class="editBook text-accent hover:text-secondary mr-2 transition duration-300" data-id="${
+															<button class="editBook text-blue-500 hover:text-blue-700 mr-2" data-id="${
 																book.id
 															}">
 																	<i class="fas fa-edit"></i>
 															</button>
-															<button class="deleteBook text-error hover:text-secondary transition duration-300" data-id="${
-																book.id
-															}">
+															<button class="deleteBook text-red-500 hover:text-red-700" data-id="${book.id}">
 																	<i class="fas fa-trash"></i>
 															</button>
 													</td>
