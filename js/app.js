@@ -247,7 +247,7 @@ function renderReviews(page = 1) {
 	const content = `
 			<h2 class="text-3xl font-bold mb-6">Book Reviews</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-					<div class="bg-gray-400 text-neutral-content p-6 rounded-lg shadow-md">
+					<div class="bg-white p-6 rounded-lg shadow-md">
 							<h3 class="text-xl font-semibold mb-4">Add New Review</h3>
 							<form id="addReviewForm" class="space-y-4">
 									<select id="reviewBookId" class="w-full p-2 border rounded text-base-content" required>
