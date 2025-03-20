@@ -263,7 +263,7 @@ function renderReviews(page = 1) {
 												)
 												.join("")}
 									</select>
-									<textarea id="reviewContent" placeholder="Write your review" class="w-full p-2 border rounded text-base-content" required></textarea>
+									<textarea id="reviewContent" placeholder="Write your review" class="w-full p-2 border rounded" required></textarea>
 									<div>
 											<label for="reviewRating" class="block mb-2">Rating:</label>
 											<div id="ratingTiles" class="flex space-x-2">
