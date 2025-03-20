@@ -250,7 +250,7 @@ function renderReviews(page = 1) {
 					<div class="bg-white p-6 rounded-lg shadow-md">
 							<h3 class="text-xl font-semibold mb-4">Add New Review</h3>
 							<form id="addReviewForm" class="space-y-4">
-									<select id="reviewBookId" class="w-full p-2 border rounded text-base-content" required>
+									<select id="reviewBookId" class="w-full p-2 border rounded" required>
 											<option value="">Select a book</option>
 											${books
 												.filter(
