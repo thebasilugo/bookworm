@@ -266,11 +266,13 @@ function renderReviews(page = 1) {
 									<textarea id="reviewContent" placeholder="Write your review" class="w-full p-2 border rounded" required></textarea>
 									<div>
 											<label for="reviewRating" class="block mb-2">Rating:</label>
-											<div id="ratingTiles" class="flex space-x-2">
+											<div id="ratingEmojis" class="flex space-x-2">
 													${[1, 2, 3, 4, 5]
 														.map(
 															(rating) => `
-															<button type="button" class="ratingTile w-6 h-6 border border-accent" data-rating="${rating}"></button>
+															<button type="button" class="ratingEmoji text-3xl" data-rating="${rating}">
+																	${getRatingEmoji(rating)}
+															</button>
 													`
 														)
 														.join("")}
