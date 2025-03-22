@@ -282,7 +282,7 @@ function renderReviews(page = 1) {
 									<button type="submit" class="w-full bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Add Review</button>
 							</form>
 					</div>
-					<div class="bg-gray-400 text-neutral-content p-6 rounded-lg shadow-md">
+					<div class="bg-white p-6 rounded-lg shadow-md">
 							<h3 class="text-xl font-semibold mb-4">Review List</h3>
 							<ul id="reviewList" class="space-y-4">
 									${paginatedReviews
