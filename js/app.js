@@ -279,7 +279,7 @@ function renderReviews(page = 1) {
 											</div>
 											<input type="hidden" id="reviewRating" value="0">
 									</div>
-									<button type="submit" class="w-full bg-primary text-primary-content px-4 py-2 rounded hover:bg-secondary transition duration-300 border">Add Review</button>
+									<button type="submit" class="w-full bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Add Review</button>
 							</form>
 					</div>
 					<div class="bg-gray-400 text-neutral-content p-6 rounded-lg shadow-md">
