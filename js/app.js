@@ -289,7 +289,7 @@ function renderReviews(page = 1) {
 										.map((review) => {
 											const book = books.find((b) => b.id === review.bookId);
 											return `
-													<li class="border-b border-neutral-focus pb-2">
+													<li class="border-b pb-2">
 															<h4 class="font-semibold">${book ? book.title : "Unknown Book"}</h4>
 															<div class="flex items-center mb-2">
 																	${renderRatingTiles(review.rating)}
