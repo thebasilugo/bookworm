@@ -292,7 +292,7 @@ function renderReviews(page = 1) {
 													<li class="border-b pb-2">
 															<h4 class="font-semibold">${book ? book.title : "Unknown Book"}</h4>
 															<div class="flex items-center mb-2">
-																	${renderRatingTiles(review.rating)}
+																	${renderRatingEmojis(review.rating)}
 															</div>
 															<p>${review.content}</p>
 															<div class="flex justify-between items-center mt-2">
