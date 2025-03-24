@@ -298,7 +298,7 @@ function renderReviews(page = 1) {
 															<div class="flex justify-between items-center mt-2">
 																	<span class="text-sm text-gray-500">${moment(review.date).fromNow()}</span>
 																	<div>
-																			<button class="editReview text-accent hover:text-secondary mr-2 transition duration-300 border p-2 rounded" data-id="${
+																			<button class="editReview text-blue-500 hover:text-blue-700 mr-2" data-id="${
 																				review.id
 																			}">Edit</button>
 																			<button class="deleteReview text-error hover:text-secondary transition duration-300 border p-2 rounded" data-id="${
