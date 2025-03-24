@@ -296,9 +296,7 @@ function renderReviews(page = 1) {
 															</div>
 															<p>${review.content}</p>
 															<div class="flex justify-between items-center mt-2">
-																	<span class="text-sm text-neutral-content">${moment(
-																		review.date
-																	).fromNow()}</span>
+																	<span class="text-sm text-gray-500">${moment(review.date).fromNow()}</span>
 																	<div>
 																			<button class="editReview text-accent hover:text-secondary mr-2 transition duration-300 border p-2 rounded" data-id="${
 																				review.id
