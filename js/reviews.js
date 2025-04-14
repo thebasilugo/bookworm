@@ -56,4 +56,3 @@ function getRatingEmoji(rating) {
 	const emojis = ["😞", "😐", "🙂", "😊", "😃"];
 	return emojis[rating - 1];
 }
-

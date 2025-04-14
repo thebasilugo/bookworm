@@ -75,4 +75,3 @@ function searchBooks(query) {
 			return [];
 		});
 }
-

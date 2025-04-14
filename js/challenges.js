@@ -72,4 +72,3 @@ function updateChallenges() {
 
 	saveChallenges(challenges);
 }
-

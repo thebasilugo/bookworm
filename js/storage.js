@@ -106,4 +106,3 @@ function initializeStorage() {
 
 // Initialize storage on load
 initializeStorage();
-

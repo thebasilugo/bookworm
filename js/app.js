@@ -580,4 +580,3 @@ document.addEventListener("DOMContentLoaded", () => {
 	// Initial render
 	renderHome();
 });
-
